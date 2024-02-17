@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/item_parametri"
+    android:padding="@dimen/space_16"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_pulsc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-black"
+            android:text="Puls:" />
+
+        <TextView
+            android:id="@+id/textView_tensiunec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-black"
+            android:text="Tensiune:" />
+
+        <TextView
+            android:id="@+id/textView_inaltimec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Inaltime:" />
+        <TextView
+            android:id="@+id/textView_greutatec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Greutate:" />
+
+        <TextView
+            android:id="@+id/textView_data_paramc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Data:" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:textSize="18sp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView_puls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView_tensiune"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView_inaltime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/textView_greutate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView_data_param"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TextView" />
+    </LinearLayout>
+
+</LinearLayout>

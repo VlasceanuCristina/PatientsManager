@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="250px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_data_consultatiec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-black"
+            android:text="Data:" />
+
+        <TextView
+            android:id="@+id/textView_ora_consultatiec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Ora:" />
+
+        <TextView
+            android:id="@+id/textView_diagnostic_consultatiec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Diagnostic:" />
+        <TextView
+            android:id="@+id/textView_tratament_consultatiec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Tratament:" />
+        <TextView
+            android:id="@+id/textView_pret_consultatiec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:layout_marginTop="40px"
+            android:text="Pret:" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:textSize="18sp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView_data_consultatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView_ora_consultatie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="TextView" />
+        <TextView
+            android:id="@+id/textView_diagnostic_consultatie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/textView_tratament_consultatie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/textView_pret_consultatie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+           />
+    </LinearLayout>
+</LinearLayout>

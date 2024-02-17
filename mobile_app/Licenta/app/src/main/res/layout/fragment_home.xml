@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/home"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:background="@color/colorBlue"
+        app:cardBackgroundColor="@android:color/transparent"
+        >
+
+        <LinearLayout
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_grupa_sangec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="sans-serif-black"
+                android:text="Grupa sange:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_rhc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="sans-serif-black"
+                android:text="Rh:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_inaltimec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="sans-serif-black"
+                android:text="Inaltime:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_greutatec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="sans-serif-black"
+                android:text="Greutate:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_pulsc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="sans-serif-black"
+                android:text="Puls:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_tensiunec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="sans-serif-black"
+                android:text="Tensiune:"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView_data_nasterec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fontFamily="sans-serif-black"
+                android:text="Data nasterii:"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330px"
+            android:textSize="18sp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView_grupa_sange"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_rh"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_inaltime"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_greutate"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_puls"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_tensiune"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView_data_nastere"
+                android:layout_width="wrap_content"
+                android:textSize="18sp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_data_internarec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            app:fontFamily="sans-serif-black"
+            android:text="Data internare:" />
+
+        <TextView
+            android:id="@+id/textView_data_externarec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Data externare:" />
+        <TextView
+            android:id="@+id/spitalc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Spital:" />
+
+        <TextView
+            android:id="@+id/textView_diagnostic_internarec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Diagnostic internare:" />
+        <TextView
+            android:id="@+id/textView_diagnostic_externarec"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Diagnostic externare:" />
+        <TextView
+            android:id="@+id/textView_tratamentc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fontFamily="sans-serif-black"
+            android:textSize="18sp"
+            android:text="Tratament:" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:textSize="18sp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView_data_internare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+             />
+
+        <TextView
+            android:id="@+id/textView_data_externare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/spital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+
+             />
+
+        <TextView
+            android:id="@+id/textView_diagnostic_internare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/textView_diagnostic_externare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+             />
+        <TextView
+            android:id="@+id/textView_tratament"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textSize="18sp"
+             />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?php
+if(isset($_GET['files'])){
+		//$id=$_GET['delete'];
+		$db = mysqli_connect('localhost', 'root', '', 'patients_manager');
+		
+		$_delete = $_GET['files'];
+		$id_internare=$_delete[0];
+		$id_pacient=$_delete[1];	
+		$query = "DELETE FROM internari WHERE id='$id_internare'";
+		$results = mysqli_query($db, $query);
+		$_SESSION['message'] = "Pacientul a fost sters!";
+		$_SESSION['msg_type'] = "danger";
+		header("Location:pacient_internari.php?subject=".$id_pacient);
+	}
+?>

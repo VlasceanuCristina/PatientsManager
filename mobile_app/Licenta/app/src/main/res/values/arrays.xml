@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timelist">
+        <item>09:00AM-09:20AM</item>
+        <item>09:20AM-09:40AM</item>
+        <item>09:40AM-10:00AM</item>
+        <item>10:20AM-10:40AM</item>
+        <item>10:40AM-11:00AM</item>
+        <item>11:00AM-11:20AM</item>
+        <item>11:20AM-11:40AM</item>
+        <item>11:40AM-12:00AM</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title >Istoric boli</title>
+	<div class = "card">
+		<div class = "card-body" style = "background-color:#3498DB; color:#ffffff;font: italic bold 40px Georgia, serif">
+			<center><h2>Istoric boli </h2><center>
+		</div>
+	</div>
+</head>
+</body>
+	<table class= "table table-hover" style= "position:relative;">
+		<thead class="thead-dark">
+			<tr>
+			  <th scope="col">Boala</th>
+			  <th scope="col">Data</th>
+			  <th scope="col">Tratament</th>
+			</tr>
+		</thead>
+		<tbody>
+			
+			<?php
+				$query = "SELECT denumire_boala, data, tratament FROM boli B, pacienti_boli PB WHERE id_pacient = $id AND B.id = Pb.id_boala";
+				$results = mysqli_query($db, $query);
+				if(mysqli_num_rows($results) > 0 ){
+					while($row = mysqli_fetch_assoc($results)){?>
+						<tr>
+							<td><?php echo $row['denumire_boala'];?></td>
+							<td><?php echo $row['data'];?></td>
+							<td><?php echo $row['tratament'];?></td>
+						</tr>
+					<?php
+					}
+				}?>
+		
+		</tbody>
+	</table>	
+</body>
